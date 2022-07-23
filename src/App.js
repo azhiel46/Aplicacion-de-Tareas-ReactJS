@@ -52,7 +52,7 @@ function App() {
       </div>
 
       <div className='tareas-lista-principal'>
-        <h1 className='h1'>Mis Tareas {numeroDeTareas}</h1>
+        <h1 className='h1'>Mis Tareas ({numeroDeTareas})</h1>
 
         <TareaFormulario onSubmit={agregarTarea} />
 
